@@ -36,7 +36,7 @@
 		EC507C401F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */; };
 		EC507C481F7327F1003940EB /* MHLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C121F73027E003940EB /* MHLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C491F7327F1003940EB /* MHLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE0A1F73079000BC56F5 /* MHLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC507C4A1F7327F1003940EB /* MHLoggable.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE061F73049900BC56F5 /* MHLoggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4A1F7327F1003940EB /* MHLLoggable.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE061F73049900BC56F5 /* MHLLoggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C4B1F7327F1003940EB /* CKOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C2A1F730342003940EB /* CKOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C4C1F7327F1003940EB /* NSObject+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE131F73086100BC56F5 /* NSObject+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C4D1F7327F1003940EB /* NSOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C2C1F7325BF003940EB /* NSOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,7 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC40EE061F73049900BC56F5 /* MHLoggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLoggable.h; sourceTree = "<group>"; };
+		EC40EE061F73049900BC56F5 /* MHLLoggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLLoggable.h; sourceTree = "<group>"; };
 		EC40EE081F7304D200BC56F5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		EC40EE0A1F73079000BC56F5 /* MHLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLDefines.h; sourceTree = "<group>"; };
 		EC40EE121F73086100BC56F5 /* NSObject+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MHL.m"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 				EC40EE0A1F73079000BC56F5 /* MHLDefines.h */,
 				EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */,
 				EC507C131F73027E003940EB /* Info.plist */,
-				EC40EE061F73049900BC56F5 /* MHLoggable.h */,
+				EC40EE061F73049900BC56F5 /* MHLLoggable.h */,
 				EC40EE131F73086100BC56F5 /* NSObject+MHL.h */,
 				EC40EE121F73086100BC56F5 /* NSObject+MHL.m */,
 				EC507C2C1F7325BF003940EB /* NSOperation+MHL.h */,
@@ -195,7 +195,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC507C4A1F7327F1003940EB /* MHLoggable.h in Headers */,
+				EC507C4A1F7327F1003940EB /* MHLLoggable.h in Headers */,
 				EC507C4E1F7327F1003940EB /* CKDatabaseOperation+MHL.h in Headers */,
 				EC507C521F7327F1003940EB /* CKRecord+MHL.h in Headers */,
 				EC507C4D1F7327F1003940EB /* NSOperation+MHL.h in Headers */,

@@ -1,5 +1,5 @@
 //
-//  MHLoggable.h
+//  MHLLoggable.h
 //  MHLogging
 //
 //  Created by Malcolm Hall on 20/09/2017.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MHLogging/MHLDefines.h>
 
-@protocol MHLoggable <NSObject>
+@protocol MHLLoggable <NSObject>
 
 - (NSString *)mhl_loggingIdentifier;
 @optional

@@ -10,7 +10,7 @@
 
 #import <MHLogging/MHLDefines.h>
 
-#import <MHLogging/MHLoggable.h>
+#import <MHLogging/MHLLoggable.h>
 #import <MHLogging/NSObject+MHL.h>
 #import <MHLogging/NSOperation+MHL.h>
 #import <MHLogging/CKOperation+MHL.h>

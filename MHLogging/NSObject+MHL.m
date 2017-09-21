@@ -11,7 +11,7 @@
 
 @implementation NSObject (MHL)
 
-+ (NSString *)mhl_loggingDescriptionFromLoggable:(id<MHLoggable>)loggable isPretty:(BOOL)isPretty{
++ (NSString *)mhl_loggingDescriptionFromLoggable:(id<MHLLoggable>)loggable isPretty:(BOOL)isPretty{
     NSMutableString *s = [NSMutableString stringWithFormat:@"<%@ ", NSStringFromClass([loggable class])];
     NSString *identifier = [loggable mhl_loggingIdentifier];
     if(identifier){
@@ -35,7 +35,7 @@
 }
 
 - (NSString *)mhl_loggingDescription{
-    if([self conformsToProtocol:@protocol(MHLoggable)]){
+    if([self conformsToProtocol:@protocol(MHLLoggable)]){
         return [self.class mhl_loggingDescriptionFromLoggable:self isPretty:NO];
     }
     return [self description];
@@ -46,7 +46,7 @@
 }
 
 - (NSString *)mhl_prettyLoggingDescription{
-    if([self conformsToProtocol:@protocol(MHLoggable)]){
+    if([self conformsToProtocol:@protocol(MHLLoggable)]){
         return [self.class mhl_loggingDescriptionFromLoggable:self isPretty:YES];
     }
     return [self description];

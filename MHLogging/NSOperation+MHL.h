@@ -11,7 +11,7 @@
 #import <MHLogging/MHLDefines.h>
 #import <MHLogging/NSObject+MHL.h>
 
-@interface NSOperation (MHL) <MHLoggable>
+@interface NSOperation (MHL) <MHLLoggable>
 
 @end
 

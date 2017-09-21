@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <CloudKit/CloudKit.h>
 #import <MHLogging/MHLDefines.h>
-#import <MHLogging/MHLoggable.h>
+#import <MHLogging/MHLLoggable.h>
 
-@interface NSObject (MHL) <MHLoggable>
+@interface NSObject (MHL) <MHLLoggable>
 
-+ (NSString *)mhl_loggingDescriptionFromLoggable:(id<MHLoggable>)loggable isPretty:(BOOL)isPretty;
++ (NSString *)mhl_loggingDescriptionFromLoggable:(id<MHLLoggable>)loggable isPretty:(BOOL)isPretty;
 - (NSString *)mhl_loggingDescription;
 - (NSString *)mhl_prettyLoggingDescription;
 
