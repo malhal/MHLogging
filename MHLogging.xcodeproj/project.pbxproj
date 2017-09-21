@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EC507CB01F740391003940EB /* Namespace */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC507CB31F740391003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */;
+			buildPhases = (
+				EC507CB61F7403A0003940EB /* ShellScript */,
+			);
+			dependencies = (
+				EC507CB51F74039D003940EB /* PBXTargetDependency */,
+			);
+			name = Namespace;
+			productName = Namespace;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EC40EE091F7304D200BC56F5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC40EE081F7304D200BC56F5 /* CloudKit.framework */; };
+		EC40EE141F73086100BC56F5 /* NSObject+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40EE121F73086100BC56F5 /* NSObject+MHL.m */; };
+		EC507C191F73027E003940EB /* MHLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC507C0F1F73027E003940EB /* MHLogging.framework */; };
+		EC507C1E1F73027E003940EB /* MHLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C1D1F73027E003940EB /* MHLoggingTests.m */; };
+		EC507C2B1F730342003940EB /* CKOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C291F730342003940EB /* CKOperation+MHL.m */; };
+		EC507C2E1F7325BF003940EB /* NSOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C2D1F7325BF003940EB /* NSOperation+MHL.m */; };
+		EC507C311F7325C7003940EB /* CKDatabaseOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C2F1F7325C7003940EB /* CKDatabaseOperation+MHL.m */; };
+		EC507C341F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C331F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m */; };
+		EC507C371F732657003940EB /* CKRecordID+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C351F732657003940EB /* CKRecordID+MHL.m */; };
+		EC507C3A1F73265F003940EB /* CKRecordZoneID+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C381F73265E003940EB /* CKRecordZoneID+MHL.m */; };
+		EC507C3D1F732668003940EB /* CKRecord+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C3C1F732668003940EB /* CKRecord+MHL.m */; };
+		EC507C401F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */; };
+		EC507C481F7327F1003940EB /* MHLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C121F73027E003940EB /* MHLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C491F7327F1003940EB /* MHLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE0A1F73079000BC56F5 /* MHLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4A1F7327F1003940EB /* MHLoggable.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE061F73049900BC56F5 /* MHLoggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4B1F7327F1003940EB /* CKOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C2A1F730342003940EB /* CKOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4C1F7327F1003940EB /* NSObject+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40EE131F73086100BC56F5 /* NSObject+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4D1F7327F1003940EB /* NSOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C2C1F7325BF003940EB /* NSOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4E1F7327F1003940EB /* CKDatabaseOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C301F7325C7003940EB /* CKDatabaseOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C4F1F7327F1003940EB /* CKFetchRecordZoneChangesOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C321F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C501F7327F1003940EB /* CKRecordID+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C361F732657003940EB /* CKRecordID+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C511F7327F1003940EB /* CKRecordZoneID+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C391F73265E003940EB /* CKRecordZoneID+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C521F7327F1003940EB /* CKRecord+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3B1F732668003940EB /* CKRecord+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C551F732B17003940EB /* NSDictionary+MHL.m */; };
+		EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC507C1A1F73027E003940EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC507C061F73027E003940EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC507C0E1F73027E003940EB;
+			remoteInfo = MHLogging;
+		};
+		EC507CB41F74039D003940EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC507C061F73027E003940EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC507C0E1F73027E003940EB;
+			remoteInfo = MHLogging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC40EE061F73049900BC56F5 /* MHLoggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLoggable.h; sourceTree = "<group>"; };
+		EC40EE081F7304D200BC56F5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		EC40EE0A1F73079000BC56F5 /* MHLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLDefines.h; sourceTree = "<group>"; };
+		EC40EE121F73086100BC56F5 /* NSObject+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MHL.m"; sourceTree = "<group>"; };
+		EC40EE131F73086100BC56F5 /* NSObject+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MHL.h"; sourceTree = "<group>"; };
+		EC507C0F1F73027E003940EB /* MHLogging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLogging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC507C121F73027E003940EB /* MHLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLogging.h; sourceTree = "<group>"; };
+		EC507C131F73027E003940EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC507C181F73027E003940EB /* MHLoggingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHLoggingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC507C1D1F73027E003940EB /* MHLoggingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHLoggingTests.m; sourceTree = "<group>"; };
+		EC507C1F1F73027E003940EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC507C291F730342003940EB /* CKOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKOperation+MHL.m"; sourceTree = "<group>"; };
+		EC507C2A1F730342003940EB /* CKOperation+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKOperation+MHL.h"; sourceTree = "<group>"; };
+		EC507C2C1F7325BF003940EB /* NSOperation+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperation+MHL.h"; sourceTree = "<group>"; };
+		EC507C2D1F7325BF003940EB /* NSOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+MHL.m"; sourceTree = "<group>"; };
+		EC507C2F1F7325C7003940EB /* CKDatabaseOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKDatabaseOperation+MHL.m"; sourceTree = "<group>"; };
+		EC507C301F7325C7003940EB /* CKDatabaseOperation+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKDatabaseOperation+MHL.h"; sourceTree = "<group>"; };
+		EC507C321F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKFetchRecordZoneChangesOperation+MHL.h"; sourceTree = "<group>"; };
+		EC507C331F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKFetchRecordZoneChangesOperation+MHL.m"; sourceTree = "<group>"; };
+		EC507C351F732657003940EB /* CKRecordID+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecordID+MHL.m"; sourceTree = "<group>"; };
+		EC507C361F732657003940EB /* CKRecordID+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecordID+MHL.h"; sourceTree = "<group>"; };
+		EC507C381F73265E003940EB /* CKRecordZoneID+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecordZoneID+MHL.m"; sourceTree = "<group>"; };
+		EC507C391F73265E003940EB /* CKRecordZoneID+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecordZoneID+MHL.h"; sourceTree = "<group>"; };
+		EC507C3B1F732668003940EB /* CKRecord+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecord+MHL.h"; sourceTree = "<group>"; };
+		EC507C3C1F732668003940EB /* CKRecord+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecord+MHL.m"; sourceTree = "<group>"; };
+		EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKFetchDatabaseChangesOperation+MHL.h"; sourceTree = "<group>"; };
+		EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKFetchDatabaseChangesOperation+MHL.m"; sourceTree = "<group>"; };
+		EC507C541F732B17003940EB /* NSDictionary+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MHL.h"; sourceTree = "<group>"; };
+		EC507C551F732B17003940EB /* NSDictionary+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MHL.m"; sourceTree = "<group>"; };
+		EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHLDefines+Namespace.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC507C0B1F73027E003940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40EE091F7304D200BC56F5 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C151F73027E003940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C191F73027E003940EB /* MHLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC40EE071F7304D200BC56F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC40EE081F7304D200BC56F5 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC507C051F73027E003940EB = {
+			isa = PBXGroup;
+			children = (
+				EC507C111F73027E003940EB /* MHLogging */,
+				EC507C1C1F73027E003940EB /* MHLoggingTests */,
+				EC507C101F73027E003940EB /* Products */,
+				EC40EE071F7304D200BC56F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC507C101F73027E003940EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C0F1F73027E003940EB /* MHLogging.framework */,
+				EC507C181F73027E003940EB /* MHLoggingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC507C111F73027E003940EB /* MHLogging */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C121F73027E003940EB /* MHLogging.h */,
+				EC40EE0A1F73079000BC56F5 /* MHLDefines.h */,
+				EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */,
+				EC507C131F73027E003940EB /* Info.plist */,
+				EC40EE061F73049900BC56F5 /* MHLoggable.h */,
+				EC40EE131F73086100BC56F5 /* NSObject+MHL.h */,
+				EC40EE121F73086100BC56F5 /* NSObject+MHL.m */,
+				EC507C2C1F7325BF003940EB /* NSOperation+MHL.h */,
+				EC507C2D1F7325BF003940EB /* NSOperation+MHL.m */,
+				EC507C2A1F730342003940EB /* CKOperation+MHL.h */,
+				EC507C291F730342003940EB /* CKOperation+MHL.m */,
+				EC507C301F7325C7003940EB /* CKDatabaseOperation+MHL.h */,
+				EC507C2F1F7325C7003940EB /* CKDatabaseOperation+MHL.m */,
+				EC507C321F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.h */,
+				EC507C331F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m */,
+				EC507C361F732657003940EB /* CKRecordID+MHL.h */,
+				EC507C351F732657003940EB /* CKRecordID+MHL.m */,
+				EC507C391F73265E003940EB /* CKRecordZoneID+MHL.h */,
+				EC507C381F73265E003940EB /* CKRecordZoneID+MHL.m */,
+				EC507C3B1F732668003940EB /* CKRecord+MHL.h */,
+				EC507C3C1F732668003940EB /* CKRecord+MHL.m */,
+				EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */,
+				EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */,
+				EC507C541F732B17003940EB /* NSDictionary+MHL.h */,
+				EC507C551F732B17003940EB /* NSDictionary+MHL.m */,
+			);
+			path = MHLogging;
+			sourceTree = "<group>";
+		};
+		EC507C1C1F73027E003940EB /* MHLoggingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C1D1F73027E003940EB /* MHLoggingTests.m */,
+				EC507C1F1F73027E003940EB /* Info.plist */,
+			);
+			path = MHLoggingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC507C0C1F73027E003940EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C4A1F7327F1003940EB /* MHLoggable.h in Headers */,
+				EC507C4E1F7327F1003940EB /* CKDatabaseOperation+MHL.h in Headers */,
+				EC507C521F7327F1003940EB /* CKRecord+MHL.h in Headers */,
+				EC507C4D1F7327F1003940EB /* NSOperation+MHL.h in Headers */,
+				EC507C501F7327F1003940EB /* CKRecordID+MHL.h in Headers */,
+				EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */,
+				EC507C511F7327F1003940EB /* CKRecordZoneID+MHL.h in Headers */,
+				EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */,
+				EC507C481F7327F1003940EB /* MHLogging.h in Headers */,
+				EC507C4C1F7327F1003940EB /* NSObject+MHL.h in Headers */,
+				EC507C4B1F7327F1003940EB /* CKOperation+MHL.h in Headers */,
+				EC507C4F1F7327F1003940EB /* CKFetchRecordZoneChangesOperation+MHL.h in Headers */,
+				EC507C491F7327F1003940EB /* MHLDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC507C0E1F73027E003940EB /* MHLogging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC507C231F73027E003940EB /* Build configuration list for PBXNativeTarget "MHLogging" */;
+			buildPhases = (
+				EC507C0A1F73027E003940EB /* Sources */,
+				EC507C0B1F73027E003940EB /* Frameworks */,
+				EC507C0C1F73027E003940EB /* Headers */,
+				EC507C0D1F73027E003940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHLogging;
+			productName = MHLogging;
+			productReference = EC507C0F1F73027E003940EB /* MHLogging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC507C171F73027E003940EB /* MHLoggingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC507C261F73027E003940EB /* Build configuration list for PBXNativeTarget "MHLoggingTests" */;
+			buildPhases = (
+				EC507C141F73027E003940EB /* Sources */,
+				EC507C151F73027E003940EB /* Frameworks */,
+				EC507C161F73027E003940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC507C1B1F73027E003940EB /* PBXTargetDependency */,
+			);
+			name = MHLoggingTests;
+			productName = MHLoggingTests;
+			productReference = EC507C181F73027E003940EB /* MHLoggingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC507C061F73027E003940EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Malcolm Hall";
+				TargetAttributes = {
+					EC507C0E1F73027E003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC507C171F73027E003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC507CB01F740391003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC507C091F73027E003940EB /* Build configuration list for PBXProject "MHLogging" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC507C051F73027E003940EB;
+			productRefGroup = EC507C101F73027E003940EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC507C0E1F73027E003940EB /* MHLogging */,
+				EC507C171F73027E003940EB /* MHLoggingTests */,
+				EC507CB01F740391003940EB /* Namespace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC507C0D1F73027E003940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C161F73027E003940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC507CB61F7403A0003940EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dependencies/MHNamespaceGenerator/script.sh MHLogging.framework MHLogging MHL";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC507C0A1F73027E003940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40EE141F73086100BC56F5 /* NSObject+MHL.m in Sources */,
+				EC507C371F732657003940EB /* CKRecordID+MHL.m in Sources */,
+				EC507C2E1F7325BF003940EB /* NSOperation+MHL.m in Sources */,
+				EC507C3A1F73265F003940EB /* CKRecordZoneID+MHL.m in Sources */,
+				EC507C3D1F732668003940EB /* CKRecord+MHL.m in Sources */,
+				EC507C341F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m in Sources */,
+				EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */,
+				EC507C401F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m in Sources */,
+				EC507C311F7325C7003940EB /* CKDatabaseOperation+MHL.m in Sources */,
+				EC507C2B1F730342003940EB /* CKOperation+MHL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C141F73027E003940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C1E1F73027E003940EB /* MHLoggingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC507C1B1F73027E003940EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC507C0E1F73027E003940EB /* MHLogging */;
+			targetProxy = EC507C1A1F73027E003940EB /* PBXContainerItemProxy */;
+		};
+		EC507CB51F74039D003940EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC507C0E1F73027E003940EB /* MHLogging */;
+			targetProxy = EC507CB41F74039D003940EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC507C211F73027E003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC507C221F73027E003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC507C241F73027E003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MHLogging/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MHLogging;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC507C251F73027E003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MHLogging/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MHLogging;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC507C271F73027E003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MHLoggingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MHLoggingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC507C281F73027E003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MHLoggingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MHLoggingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC507CB11F740391003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC507CB21F740391003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC507C091F73027E003940EB /* Build configuration list for PBXProject "MHLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C211F73027E003940EB /* Debug */,
+				EC507C221F73027E003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507C231F73027E003940EB /* Build configuration list for PBXNativeTarget "MHLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C241F73027E003940EB /* Debug */,
+				EC507C251F73027E003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507C261F73027E003940EB /* Build configuration list for PBXNativeTarget "MHLoggingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C271F73027E003940EB /* Debug */,
+				EC507C281F73027E003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507CB31F740391003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507CB11F740391003940EB /* Debug */,
+				EC507CB21F740391003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC507C061F73027E003940EB /* Project object */;
+}
