@@ -48,6 +48,8 @@
 		EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C551F732B17003940EB /* NSDictionary+MHL.m */; };
 		EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */; };
+		EC507D321F740F4D003940EB /* CKServerChangeToken+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,8 @@
 		EC507C541F732B17003940EB /* NSDictionary+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MHL.h"; sourceTree = "<group>"; };
 		EC507C551F732B17003940EB /* NSDictionary+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MHL.m"; sourceTree = "<group>"; };
 		EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHLDefines+Namespace.h"; sourceTree = "<group>"; };
+		EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKServerChangeToken+MHL.h"; sourceTree = "<group>"; };
+		EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKServerChangeToken+MHL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 				EC507C381F73265E003940EB /* CKRecordZoneID+MHL.m */,
 				EC507C3B1F732668003940EB /* CKRecord+MHL.h */,
 				EC507C3C1F732668003940EB /* CKRecord+MHL.m */,
+				EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */,
+				EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */,
 				EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */,
 				EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */,
 				EC507C541F732B17003940EB /* NSDictionary+MHL.h */,
@@ -202,6 +208,7 @@
 				EC507C501F7327F1003940EB /* CKRecordID+MHL.h in Headers */,
 				EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */,
 				EC507C511F7327F1003940EB /* CKRecordZoneID+MHL.h in Headers */,
+				EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */,
 				EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */,
 				EC507C481F7327F1003940EB /* MHLogging.h in Headers */,
 				EC507C4C1F7327F1003940EB /* NSObject+MHL.h in Headers */,
@@ -334,6 +341,7 @@
 				EC507C371F732657003940EB /* CKRecordID+MHL.m in Sources */,
 				EC507C2E1F7325BF003940EB /* NSOperation+MHL.m in Sources */,
 				EC507C3A1F73265F003940EB /* CKRecordZoneID+MHL.m in Sources */,
+				EC507D321F740F4D003940EB /* CKServerChangeToken+MHL.m in Sources */,
 				EC507C3D1F732668003940EB /* CKRecord+MHL.m in Sources */,
 				EC507C341F73264D003940EB /* CKFetchRecordZoneChangesOperation+MHL.m in Sources */,
 				EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */,
