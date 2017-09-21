@@ -19,5 +19,6 @@
 #import <MHLogging/CKRecordID+MHL.h>
 #import <MHLogging/CKRecordZoneID+MHL.h>
 #import <MHLogging/CKRecord+MHL.h>
+#import <MHLogging/CKServerChangeToken+MHL.h>
 #import <MHLogging/CKFetchDatabaseChangesOperation+MHL.h>
 #import <MHLogging/NSDictionary+MHL.h>
