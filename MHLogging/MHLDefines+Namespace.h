@@ -2,7 +2,7 @@
 //  MHLDefines+Namespace.h
 //  MHLogging
 //
-//  Generated using MHNamespaceGenerator on 21/09/2017
+//  Generated using MHNamespaceGenerator on 26/09/2017
 //
 
 #if !defined(__MHLOGGING_NAMESPACE_APPLY) && defined(MHLOGGING_NAMESPACE) && defined(MHLOGGING_NAMESPACE_LOWER)

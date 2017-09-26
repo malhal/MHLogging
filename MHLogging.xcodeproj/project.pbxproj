@@ -48,8 +48,9 @@
 		EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C551F732B17003940EB /* NSDictionary+MHL.m */; };
 		EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */; };
+		EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D321F740F4D003940EB /* CKServerChangeToken+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */; };
+		EC942EBC1F7B117800A53DA9 /* NSDictionary+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C541F732B17003940EB /* NSDictionary+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +210,7 @@
 				EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */,
 				EC507C511F7327F1003940EB /* CKRecordZoneID+MHL.h in Headers */,
 				EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */,
+				EC942EBC1F7B117800A53DA9 /* NSDictionary+MHL.h in Headers */,
 				EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */,
 				EC507C481F7327F1003940EB /* MHLogging.h in Headers */,
 				EC507C4C1F7327F1003940EB /* NSObject+MHL.h in Headers */,
