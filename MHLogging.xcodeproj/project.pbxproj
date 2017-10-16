@@ -122,20 +122,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC40EE071F7304D200BC56F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EC507C051F73027E003940EB = {
 			isa = PBXGroup;
 			children = (
 				EC507C111F73027E003940EB /* MHLogging */,
 				EC507C1C1F73027E003940EB /* MHLoggingTests */,
 				EC507C101F73027E003940EB /* Products */,
-				EC40EE071F7304D200BC56F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
