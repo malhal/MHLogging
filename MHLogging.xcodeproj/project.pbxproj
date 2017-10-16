@@ -22,7 +22,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		EC40EE091F7304D200BC56F5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC40EE081F7304D200BC56F5 /* CloudKit.framework */; };
 		EC40EE141F73086100BC56F5 /* NSObject+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40EE121F73086100BC56F5 /* NSObject+MHL.m */; };
 		EC507C191F73027E003940EB /* MHLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC507C0F1F73027E003940EB /* MHLogging.framework */; };
 		EC507C1E1F73027E003940EB /* MHLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C1D1F73027E003940EB /* MHLoggingTests.m */; };
@@ -72,7 +71,6 @@
 
 /* Begin PBXFileReference section */
 		EC40EE061F73049900BC56F5 /* MHLLoggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLLoggable.h; sourceTree = "<group>"; };
-		EC40EE081F7304D200BC56F5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		EC40EE0A1F73079000BC56F5 /* MHLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLDefines.h; sourceTree = "<group>"; };
 		EC40EE121F73086100BC56F5 /* NSObject+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MHL.m"; sourceTree = "<group>"; };
 		EC40EE131F73086100BC56F5 /* NSObject+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MHL.h"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC40EE091F7304D200BC56F5 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +125,6 @@
 		EC40EE071F7304D200BC56F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC40EE081F7304D200BC56F5 /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
