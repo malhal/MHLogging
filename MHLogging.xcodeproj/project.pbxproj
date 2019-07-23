@@ -6,21 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		EC507CB01F740391003940EB /* Namespace */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = EC507CB31F740391003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */;
-			buildPhases = (
-				EC507CB61F7403A0003940EB /* ShellScript */,
-			);
-			dependencies = (
-				EC507CB51F74039D003940EB /* PBXTargetDependency */,
-			);
-			name = Namespace;
-			productName = Namespace;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		EC40EE141F73086100BC56F5 /* NSObject+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40EE121F73086100BC56F5 /* NSObject+MHL.m */; };
 		EC507C191F73027E003940EB /* MHLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC507C0F1F73027E003940EB /* MHLogging.framework */; };
@@ -46,7 +31,6 @@
 		EC507C521F7327F1003940EB /* CKRecord+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3B1F732668003940EB /* CKRecord+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C531F7327F1003940EB /* CKFetchDatabaseChangesOperation+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C3E1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507C561F732B17003940EB /* NSDictionary+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C551F732B17003940EB /* NSDictionary+MHL.m */; };
-		EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D321F740F4D003940EB /* CKServerChangeToken+MHL.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */; };
 		EC942EBC1F7B117800A53DA9 /* NSDictionary+MHL.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C541F732B17003940EB /* NSDictionary+MHL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,13 +38,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		EC507C1A1F73027E003940EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC507C061F73027E003940EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC507C0E1F73027E003940EB;
-			remoteInfo = MHLogging;
-		};
-		EC507CB41F74039D003940EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC507C061F73027E003940EB /* Project object */;
 			proxyType = 1;
@@ -98,7 +75,6 @@
 		EC507C3F1F732671003940EB /* CKFetchDatabaseChangesOperation+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKFetchDatabaseChangesOperation+MHL.m"; sourceTree = "<group>"; };
 		EC507C541F732B17003940EB /* NSDictionary+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MHL.h"; sourceTree = "<group>"; };
 		EC507C551F732B17003940EB /* NSDictionary+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MHL.m"; sourceTree = "<group>"; };
-		EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHLDefines+Namespace.h"; sourceTree = "<group>"; };
 		EC507D2F1F740F4D003940EB /* CKServerChangeToken+MHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKServerChangeToken+MHL.h"; sourceTree = "<group>"; };
 		EC507D301F740F4D003940EB /* CKServerChangeToken+MHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKServerChangeToken+MHL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,7 +121,6 @@
 			children = (
 				EC507C121F73027E003940EB /* MHLogging.h */,
 				EC40EE0A1F73079000BC56F5 /* MHLDefines.h */,
-				EC507CB71F7403C0003940EB /* MHLDefines+Namespace.h */,
 				EC507C131F73027E003940EB /* Info.plist */,
 				EC40EE061F73049900BC56F5 /* MHLLoggable.h */,
 				EC40EE131F73086100BC56F5 /* NSObject+MHL.h */,
@@ -195,7 +170,6 @@
 				EC507C521F7327F1003940EB /* CKRecord+MHL.h in Headers */,
 				EC507C4D1F7327F1003940EB /* NSOperation+MHL.h in Headers */,
 				EC507C501F7327F1003940EB /* CKRecordID+MHL.h in Headers */,
-				EC507CB81F7403D3003940EB /* MHLDefines+Namespace.h in Headers */,
 				EC507C511F7327F1003940EB /* CKRecordZoneID+MHL.h in Headers */,
 				EC507D311F740F4D003940EB /* CKServerChangeToken+MHL.h in Headers */,
 				EC942EBC1F7B117800A53DA9 /* NSDictionary+MHL.h in Headers */,
@@ -264,10 +238,6 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					EC507CB01F740391003940EB = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = EC507C091F73027E003940EB /* Build configuration list for PBXProject "MHLogging" */;
@@ -284,7 +254,6 @@
 			targets = (
 				EC507C0E1F73027E003940EB /* MHLogging */,
 				EC507C171F73027E003940EB /* MHLoggingTests */,
-				EC507CB01F740391003940EB /* Namespace */,
 			);
 		};
 /* End PBXProject section */
@@ -305,22 +274,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		EC507CB61F7403A0003940EB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "dependencies/MHNamespaceGenerator/script.sh MHLogging.framework MHLogging MHL";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC507C0A1F73027E003940EB /* Sources */ = {
@@ -356,11 +309,6 @@
 			isa = PBXTargetDependency;
 			target = EC507C0E1F73027E003940EB /* MHLogging */;
 			targetProxy = EC507C1A1F73027E003940EB /* PBXContainerItemProxy */;
-		};
-		EC507CB51F74039D003940EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC507C0E1F73027E003940EB /* MHLogging */;
-			targetProxy = EC507CB41F74039D003940EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,22 +485,6 @@
 			};
 			name = Release;
 		};
-		EC507CB11F740391003940EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		EC507CB21F740391003940EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +511,6 @@
 			buildConfigurations = (
 				EC507C271F73027E003940EB /* Debug */,
 				EC507C281F73027E003940EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC507CB31F740391003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC507CB11F740391003940EB /* Debug */,
-				EC507CB21F740391003940EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
