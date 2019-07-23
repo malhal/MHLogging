@@ -25,5 +25,3 @@
 #define MHL_EXTERN_HIDDEN   extern __attribute__((visibility ("hidden")))
 #endif
 #endif
-
-#import <MHLogging/MHLDefines+Namespace.h>
